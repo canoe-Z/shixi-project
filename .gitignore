@@ -8,3 +8,6 @@ build/
 # VSCode Cache
 .vscode/
 
+# Data
+data/
+

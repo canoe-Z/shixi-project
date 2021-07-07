@@ -4,6 +4,7 @@ add_requires("opencv")
 target("shixi")
     set_kind("binary")
     add_files("src/*.cpp")
+    add_files("src/calibrater/*.cpp")
     add_packages("opencv")
     set_languages("c11", "c++20")
 
